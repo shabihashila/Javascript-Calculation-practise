@@ -7,15 +7,16 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
-const num1 = 45;
+const num1 = 5;
 const num2 = 25;
-const result = num1 + num2;
+
 if (num1 > num2) {
-  const result = 2 * num1;
+  let result = 2 * num1;
   console.log(result);
 } else {
-  const result = num1 + num2;
+  let result = num1 + num2;
   console.log(result);
 }
+
 // tarnary short form
 // num1 > num2 ? console.log(2 * num1) : console.log(num1 + num2);
