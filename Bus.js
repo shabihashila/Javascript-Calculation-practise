@@ -8,12 +8,12 @@ Ticket fare Calculator
 */
 
 // this is answer of this question
-const age = 83;
+const age = 53;
 const TicketBill = 800;
 
 if (age < 10) {
   console.log("you don't have to pay for this ticket");
-} else if (age > 10 && age < 30) {
+} else if (age >= 10 && age < 30) {
   const discount = TicketBill * (50 / 100);
   const totalBill = TicketBill - discount;
   console.log("price :" + totalBill);
@@ -25,5 +25,5 @@ if (age < 10) {
 
   console.log("you will get a 15% discount");
 } else {
-  console.log("you have to pay for this regular ticket fare 800tk you");
+  console.log("you have to pay for this regular ticket fare 800tk");
 }
